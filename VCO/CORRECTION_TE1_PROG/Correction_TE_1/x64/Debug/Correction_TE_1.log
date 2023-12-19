@@ -1,0 +1,5 @@
+﻿  TestQ4.cpp
+C:\PORTO\PROG_SLO1_23_24\CORRECTION_TE1_PROG\Correction_TE_1\TestQ4.cpp(15,24): warning C4309: '=' : troncation de valeur de constante
+C:\PORTO\PROG_SLO1_23_24\CORRECTION_TE1_PROG\Correction_TE_1\TestQ4.cpp(29,54): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\PORTO\PROG_SLO1_23_24\CORRECTION_TE1_PROG\Correction_TE_1\TestQ4.cpp(31,32): warning C4244: '=' : conversion de 'float' en 'int8_t', perte possible de données
+  Correction_TE_1.vcxproj -> C:\PORTO\PROG_SLO1_23_24\CORRECTION_TE1_PROG\Correction_TE_1\x64\Debug\Correction_TE_1.exe

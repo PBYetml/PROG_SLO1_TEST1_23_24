@@ -1,0 +1,2 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1134,5): error MSB6006: Arrêt de "link.exe" avec le code 1168.
+LINK : fatal error LNK1168: impossible d'ouvrir C:\Users\Nicol\OneDrive - Education Vaud\ES\2023-2024\Prog\Test_Corr\PROG\Epreuve\Test1_NBN\TestQ4\x64\Debug\TestQ4.exe pour écrire

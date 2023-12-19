@@ -1,0 +1,4 @@
+﻿  testQ4.c
+C:\EDA\PROG\PROG_SLO1_TEST1_23_24\EDO\Test 1 Prog\testQ4.c(33,48): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\EDA\PROG\PROG_SLO1_TEST1_23_24\EDO\Test 1 Prog\testQ4.c(35,26): warning C4244: '=' : conversion de 'float' en 'int8_t', perte possible de données
+  Test 1 Prog.vcxproj -> C:\EDA\PROG\PROG_SLO1_TEST1_23_24\EDO\x64\Debug\Test 1 Prog.exe
