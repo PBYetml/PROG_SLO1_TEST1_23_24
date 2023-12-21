@@ -4,26 +4,26 @@
 void main(void)
 {
 	//VarLoc
-	uint16_t ValBrutCptDS1820 = 0;
-	int16_t InfoSigne = 0;
-	float InfoValeurDemi = 0;
-	float ValeurTemp = 0;
-	uint8_t InfoValeurEntier = 0;
+	uint16_t valBrutCptDS1820 = 0;
+	int16_t infoSigne = 0;
+	float infoValeurDemi = 0;
+	float valeurTemp = 0;
+	uint8_t infoValeurEntier = 0;
 
 	//Body
 
-	ValBrutCptDS1820 = VALDS;
-	InfoSigne = ValBrutCptDS1820 >> EIGHT;
-	if (InfoSigne == SIGNE)
+	valBrutCptDS1820 = VALDS;
+	infoSigne = valBrutCptDS1820 >> EIGHT;
+	if (infoSigne == SIGNE)
 	{
-		InfoSigne = -1;
+		infoSigne = -1;
 	}
 	else
 	{
-		InfoSigne = 1;
+		infoSigne = 1;
 	}
-	InfoValeurDemi = ((ValBrutCptDS1820&DEM)*HALF);
-	InfoValeurEntier = (ValBrutCptDS1820 & ENT) >> 1;
-	ValeurTemp = (InfoSigne * (InfoValeurDemi + InfoValeurEntier));
+	infoValeurDemi = ((valBrutCptDS1820&DEM)*HALF);
+	infoValeurEntier = (valBrutCptDS1820 & ENT) >> 1;
+	valeurTemp = (infoSigne * (infoValeurDemi + infoValeurEntier));
 
 }

@@ -1,6 +1,6 @@
 //#pragma once
-#ifndef testQ4
-#define testQ4
+#ifndef testQ4_H
+#define testQ4_H
 
 #include<stdint.h>
 
