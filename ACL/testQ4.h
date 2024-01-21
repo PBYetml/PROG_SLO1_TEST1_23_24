@@ -4,8 +4,8 @@
 
 #include<stdint.h>
 
-const uint16_t VALDS = 0xFF33;
-const int SIGNE = 0xFF;
+extern const uint16_t VALDS = 0xFF33;
+extern const int SIGNE = 0xFF;
 #define ENT 0x00FF
 #define DEM 0x0001
 #define HALF 0.5

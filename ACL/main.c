@@ -1,3 +1,12 @@
+/*Nom du projet		:Correction test
+Nom du fichier 		:Main.c
+Date de création 	: 
+Date de modification:07.12.2023 
+Version 			:.. 
+Description         :Voir donnée test 1 - PROG 
+Remarques 			:
+*/
+
 #include "testQ4.h"
 #include <stdint.h>
 
@@ -22,7 +31,7 @@ void main(void)
 	{
 		infoSigne = 1;
 	}
-	infoValeurDemi = ((valBrutCptDS1820&DEM)*HALF);
+	infoValeurDemi = ((valBrutCptDS1820 & DEM) * HALF);
 	infoValeurEntier = (valBrutCptDS1820 & ENT) >> 1;
 	valeurTemp = (infoSigne * (infoValeurDemi + infoValeurEntier));
 
